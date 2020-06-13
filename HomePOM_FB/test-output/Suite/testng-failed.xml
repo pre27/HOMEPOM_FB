@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.TestCase.Facebook_loginTestcase">
+        <methods>
+          <include name="login"/>
+          <include name="tearup"/>
+          <include name="startapp"/>
+        </methods>
+      </class> <!-- com.TestCase.Facebook_loginTestcase -->
+      <class name="com.TestCase.Facebook_register_Testcase">
+        <methods>
+          <include name="startapp"/>
+          <include name="tearup"/>
+          <include name="register"/>
+        </methods>
+      </class> <!-- com.TestCase.Facebook_register_Testcase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
