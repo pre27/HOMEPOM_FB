@@ -3,6 +3,11 @@
   <groupId>POM_practice</groupId>
   <artifactId>POM_Practice</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+	<properties>
+  <aspectj.version>1.9.2</aspectj.version>
+  
+  </properties>
+
   <dependencies>
   <dependency>
 			<groupId>io.qameta.allure</groupId>
